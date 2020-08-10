@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    
+
 ]
 
 ROOT_URLCONF = 'webapp.urls'
@@ -129,7 +129,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'rqshyaqhlljckfn@gmail.com'
-EMAIL_HOST_PASSWORD = 'Testing123@'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
 
 DEFAULT_FROM_EMAIL = 'rqshyaqhlljckfn@gmail.com' # default server sender
